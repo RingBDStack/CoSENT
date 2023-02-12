@@ -1,0 +1,15 @@
+{
+    "model_name_or_path": "roberta-base",
+    "loss_type": "CoSENT",
+    "dataset_name": "stsb",
+    "seed": 42,
+    "pooling_type": "mean",
+    "train_batch_size": 16,
+    "num_train_epochs": 4,
+    "warmup_ratio": 0.1,
+    "evaluation_steps": 1000,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "output_dir": "output/RoBERTa/base/stsb_cosent"
+}

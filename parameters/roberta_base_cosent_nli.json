@@ -1,0 +1,17 @@
+{
+    "model_name_or_path": "roberta-base",
+    "loss_type": "CoSENT",
+    "dataset_name": "nli",
+    "seed": 42,
+    "pooling_type": "mean",
+    "train_batch_size": 64,
+    "max_seq_length": 128,
+    "num_train_epochs": 1,
+    "warmup_ratio": 0.1,
+    "evaluation_steps": 1000,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": false,
+    "show_progress_bar": false,
+    "output_dir": "output/RoBERTa/base/nli_cosent_cls"
+}
