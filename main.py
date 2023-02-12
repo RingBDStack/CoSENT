@@ -1,9 +1,3 @@
-'''
-Author: Samrito
-Date: 2022-12-07 10:00:05
-LastEditors: Samrito
-LastEditTime: 2022-12-07 10:00:06
-'''
 import torch
 from torch.utils.data import DataLoader
 import math
