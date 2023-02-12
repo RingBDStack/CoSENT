@@ -1,9 +1,3 @@
-'''
-Author: Samrito
-Date: 2022-11-12 17:28:19
-LastEditors: Samrito
-LastEditTime: 2022-12-07 10:00:37
-'''
 import datasets
 from sentence_transformers.readers import InputExample
 from sentence_transformers import util
