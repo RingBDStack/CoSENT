@@ -1,9 +1,3 @@
-'''
-Author: Samrito
-Date: 2022-11-10 20:34:22
-LastEditors: Samrito
-LastEditTime: 2022-12-05 16:20:11
-'''
 import torch
 from torch import nn, Tensor
 from typing import Iterable, Dict
