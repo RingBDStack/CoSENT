@@ -3,7 +3,7 @@
 Code for ***CoSENT: Consistent Sentence Embedding via Similarity Ranking***
 
 ## Overview
-- sbert.py: main file for CoSENT.
+- main.py: main file for CoSENT.
 - datasets: dictionary contains all datasets used in our paper.
 - loss.py: CoSENT loss.
 - arguments.py: configurations for training and evaluation.
