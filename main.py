@@ -40,7 +40,7 @@ if __name__ == '__main__':
                         datefmt='%Y-%m-%d %H:%M:%S',
                         level=logging.INFO,
                         handlers=[LoggingHandler()])
-    #### /print train arguments
+    #### print training arguments
     logging.info(f"*** dataset parameters ***\n {data_args}")
     logging.info(f"*** model parameters ***\n {model_args}")
     logging.info(f"*** Training/evaluation parameters ***\n {training_args}")
